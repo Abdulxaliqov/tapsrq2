@@ -1,4 +1,42 @@
-fun main(){
+
+fun main() {
+    var num1 = 1278217
+    println("sual1")
+    println(num1/1000%100)
+
+    println("sual2")
+    var num2 = 1278217
+    println(num2/100%10000)
+
+    println("sual3")
+    var num3 = 238545
+    println(num3/1000%10)
+
+    println("sual4")
+    var num4 = 238545
+    println(num4/10000)
+
+    println("sual5")
+    var num5 = 238545
+    println((num5/100000) + (num5/10000%10) + (num5/1000%10) + (num5/100%10) +(num5%10))
+
+
+    println("sual6")
+    var num6 = 238545
+    println((num6/10000)+(num6/100%100)+(num6/100%100))
+
+    println("sual7")
+    var num7 = 3423432
+    println((num7/100000) + (num7%100))
+
+    println("sual8")
+    var num8 = 3423432
+    println(num8/10%1000)
+
+    println("sual9")
+    var num9 = 9423435
+    println((num9/1000000) + (num9%10))
+
 
   println("sual10")
 
